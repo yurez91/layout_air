@@ -159,7 +159,9 @@ ul {
     height: 85%;
     background: url(../images/slider/Photo.jpg) no-repeat center;
     background-size: cover;
-    border-top-left-radius: 200px; }
+    border-top-left-radius: 200px;
+    -webkit-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out; }
   .header__burger {
     display: none; }
   .header__burger-icon {
@@ -317,6 +319,8 @@ ul {
     border: 2px solid #ff9c8e;
     background-color: #fff;
     color: #ff9c8e; }
+  .btn:focus {
+    outline: none; }
 
 .link {
   font-family: "Poppins", sans-serif;
@@ -695,7 +699,7 @@ ul {
     bottom: 0;
     width: 45%;
     height: 70%;
-    background: url(../images/slider/Photo2.jpg) no-repeat center;
+    background: url(../images/img.jpg) no-repeat center;
     background-size: cover;
     border-top-left-radius: 200px; }
   @media screen and (max-width: 1200px) {
