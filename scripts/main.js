@@ -2,11 +2,11 @@
 
 let clickCount = 1;
 const backgroundImg = [
-  '../images/slider/Photo.jpg',
-  '../images/slider/Photo1.jpg',
-  '../images/slider/Photo2.jpg',
-  '../images/slider/Photo3.jpg',
-  '../images/slider/Photo4.jpg',
+  '/images/slider/Photo.jpg',
+  '/images/slider/Photo1.jpg',
+  '/images/slider/Photo2.jpg',
+  '/images/slider/Photo3.jpg',
+  '/images/slider/Photo4.jpg',
 ];
 
 const rightArrow = document.querySelector('.slider__arrow--right');
